@@ -27,7 +27,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so",
             ],
             shared_libs: [
-                "libcamera_shim",
+                "libgui_shim_miuicamera",
                 "libandroid",
                 "libandroid_runtime",
                 "libbase",
@@ -67,7 +67,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so",
             ],
             shared_libs: [
-                "libcamera_shim",
+                "libgui_shim_miuicamera",
                 "libandroid",
                 "libbinder",
                 "libcamera_client",
